@@ -7,9 +7,10 @@
 
 .section-1 {
     background-image: url(/img/Facade.png);
-    background-size: contain;
+    background-size:cover;
     width: 100%;
     height: 1080px;
+    background-repeat: no-repeat;
    
 }
 
@@ -146,4 +147,154 @@
     font-weight: 400;  
     text-align: center;
     margin-top: 30px;
+}
+
+.booking-bloc {
+    background-color: white;
+    width: 100%;
+    padding: 0 55px;
+    display: flex;
+}
+.booking-bloc h6 {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #878787;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.booking-bloc .date {
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+.booking-bloc .descriptions {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    display: inline-block;
+    width: 120px;
+    margin-left: 20px;
+}
+.booking-bloc .small-descriptions {
+    font-size: 14px;
+}
+
+.booking-bloc .date-block {
+    padding: 0 0 52px 66px;
+}
+.booking-bloc .date-block div {
+    display: flex;
+    align-items: center;
+}
+.number-of-people{
+    display: flex;
+}
+.number-of-people div {
+    width: 50%;
+    text-align: center;
+}
+.number-of-people div h6 {
+   text-align: center;
+}
+
+.chek-avaliability-btn{
+    display: flex;
+    align-items: center;
+}
+.chek-avaliability-btn button {
+    width: 242px;
+    height: 55px;
+    display: block;
+    background: #E4C280;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: auto;
+    border: none;
+}
+
+.date-of-arrival, .date-of-departure, .number-of-people, .chek-avaliability-btn{
+    width: 25%;  
+    border: 1px solid #E5E5E5;   
+}
+
+.vision-block {
+    padding: 186px 122px 121px 70px;
+    background: #F7F7F7;
+    display: flex;
+}
+.vision-block .left {
+    width: 50%;
+    text-align: left;
+}
+.vision-block .left h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #E4C280;
+}
+.vision-block .left h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.vision-block .left h4 {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase; 
+    color: #000000;
+    width: 490px;
+}
+.vision-block .left p {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 0 50px 0;
+    width: 490px;
+
+    letter-spacing: 0.25px;
+    color: #878787;
+}
+.vision-block .left div {
+    width: 182px;
+}
+.vision-block .left div p {
+    font-size: 14px;
+}
+
+.vision-block .right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.vision-block .right div {
+    height: 540px;
+    width: 636px;   
+    margin: auto;
+    position: relative;
+}
+.vision-block .right .border {
+    border: 0.5px solid #878787;
+    position: absolute;
+    z-index: 2;
+}
+
+.vision-block .right div img{
+    position: absolute;
+    height: 540px;
+    bottom: 50px;
+    left: 50px;
 }
