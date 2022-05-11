@@ -320,9 +320,13 @@
     bottom: 50px;
     left: 50px;
 }
-.explore-title, .the-hotel-title, .description-title{
+
+.explore-title,
+.the-hotel-title,
+.description-title {
     text-align: center;
 }
+
 .free-time h4 {
     color: #E4C280;
     font-size: 18px;
@@ -378,7 +382,7 @@
 .entertainment .card p {
     font-size: 14px;
     font-weight: 400;
-    padding:0    45px;
+    padding: 0 45px;
     width: 100%;
 }
 
@@ -387,4 +391,66 @@
     font-weight: 400;
     text-transform: uppercase;
     padding: 0 45px;
+}
+
+.section-4 {
+    background-image: url(./img/background.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 70px 144px 70px;
+}
+
+.section-4 h6 {
+    color: #E4C280;
+    font-size: 18px;
+    font-weight: 400;
+    height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-4 h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.the-advantages {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.advantage{
+    width: 400px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.the-advantages img{
+    width: 50px;
+    height: 40px;
+
+}
+
+.the-advantages h1 {
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+margin-left: 40px;
+text-align: left;
+margin-top: 20px;
+}
+
+.the-advantages p {
+color:#878787;
+font-size: 16px;
+font-weight: 400;
+margin-left: 40px;
+margin-top: 5px;
+
 }
