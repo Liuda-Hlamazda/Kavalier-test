@@ -412,7 +412,7 @@
     text-transform: uppercase;
 }
 
-.section-4 h1{
+.section-4 h1 {
     color: white;
     font-size: 48px;
     font-weight: 700;
@@ -425,32 +425,148 @@
 
 }
 
-.advantage{
+.advantage {
     width: 400px;
     display: flex;
     margin-top: 30px;
 }
 
-.the-advantages img{
+.the-advantages img {
     width: 50px;
     height: 40px;
 
 }
 
 .the-advantages h1 {
-font-size: 18px;
-font-weight: 400;
-text-transform: uppercase;
-margin-left: 40px;
-text-align: left;
-margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 20px;
 }
 
 .the-advantages p {
-color:#878787;
-font-size: 16px;
-font-weight: 400;
-margin-left: 40px;
-margin-top: 5px;
+    color: #878787;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 5px;
 
 }
+
+.section-5 {
+    background-color:#F7F7F7;
+    height: 1680px;
+    width: 100%;
+}
+
+.section-5 p {
+    color: #E4C280;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.section-5 h1 {
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.links a {
+    color: #E4C280;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.example-room {
+    display: flex;
+    margin-top: 50px;
+    border-style: hidden ;
+    padding: 35px;
+    
+   }
+
+.example-room img {
+    width: 50%;
+
+}
+
+.description-room{
+    background-color: white;
+}
+
+.description-room h1 {
+    color: black;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+.description-room p {
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    width: 90%;
+    margin-left: 30px;
+    height: 140px;
+}
+
+.description-room .grey {
+  width: 187px;
+  height: 70px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background-color: #878787;
+  border: none;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.description-room .yellow {
+    width: 187px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-color:#E4C280; 
+    border: none;
+    margin-left: 10px;
+}
+
+.types-of-rooms {
+    display: flex;
+    justify-content: center;
+}
+
+.types-of-rooms img {
+    height: 120px;
+    margin-left: 10px;
+
+}
+
+.types-of-rooms h6 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 10px;
+    line-height: 120px;
+}
+
