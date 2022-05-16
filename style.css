@@ -457,7 +457,6 @@
 
 .section-5 {
     background-color:#F7F7F7;
-    height: 1680px;
     width: 100%;
 }
 
@@ -570,3 +569,80 @@
     line-height: 120px;
 }
 
+.section-6 {
+    background-color: white;
+    width: 100%;
+}
+
+.section-6 p {
+    color:#E4C280;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.section-6 h1 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.leisure-block .card {
+    width: 400px;
+}
+.leisure-block .card img {
+    width: 100%;
+
+}
+
+.text-for-card {
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.text-for-card h5 {
+    color:  #878787;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right; 
+    padding-top: 10px;
+
+}
+
+.text-for-card span {
+    color: #E4C280;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+   
+
+}
+
+.text-for-card h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    
+} 
+
+.text-for-card p {
+    color: #878787;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.text-for-card h6 {
+    color: #E4C280;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 20px;
+}
