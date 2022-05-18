@@ -456,7 +456,7 @@
 }
 
 .section-5 {
-    background-color:#F7F7F7;
+    background-color: #F7F7F7;
     width: 100%;
 }
 
@@ -494,17 +494,17 @@
 .example-room {
     display: flex;
     margin-top: 50px;
-    border-style: hidden ;
+    border-style: hidden;
     padding: 35px;
-    
-   }
+
+}
 
 .example-room img {
     width: 50%;
 
 }
 
-.description-room{
+.description-room {
     background-color: white;
 }
 
@@ -528,15 +528,15 @@
 }
 
 .description-room .grey {
-  width: 187px;
-  height: 70px;
-  font-size: 18px;
-  font-weight: 400;
-  color: white;
-  background-color: #878787;
-  border: none;
-  margin-left: 30px;
-  margin-top: 40px;
+    width: 187px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-color: #878787;
+    border: none;
+    margin-left: 30px;
+    margin-top: 40px;
 }
 
 .description-room .yellow {
@@ -545,7 +545,7 @@
     font-size: 18px;
     font-weight: 400;
     color: white;
-    background-color:#E4C280; 
+    background-color: #E4C280;
     border: none;
     margin-left: 10px;
 }
@@ -570,17 +570,18 @@
 }
 
 .section-6 {
-    background-color: white;
+    background-color: #F7F7F7;
     width: 100%;
+    
 }
 
 .section-6 p {
-    color:#E4C280;
+    color: #E4C280;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 35px;
+    padding-top: 35px;
 }
 
 .section-6 h1 {
@@ -590,9 +591,17 @@
     text-align: center;
     margin-top: 20px;
 }
+
+.leisure-block {
+    display: flex;
+    justify-content: space-around;
+}
+
 .leisure-block .card {
     width: 400px;
+
 }
+
 .leisure-block .card img {
     width: 100%;
 
@@ -601,15 +610,15 @@
 .text-for-card {
     padding-left: 25px;
     padding-right: 25px;
-    
+
 }
 
 .text-for-card h5 {
-    color:  #878787;
+    color: #878787;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    text-align: right; 
+    text-align: right;
     padding-top: 10px;
 
 }
@@ -619,7 +628,7 @@
     font-size: 18px;
     font-weight: 400;
     text-align: right;
-   
+
 
 }
 
@@ -628,8 +637,8 @@
     font-size: 36px;
     font-weight: 400;
     text-align: left;
-    
-} 
+
+}
 
 .text-for-card p {
     color: #878787;
@@ -645,4 +654,124 @@
     text-transform: uppercase;
     text-align: left;
     margin-top: 20px;
+}
+
+
+.section-6 .grey {
+    background-color: #878787;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    height: 52px;
+    width: 221px;
+    text-align: center;
+    line-height: 52px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.footer {
+    background-color: #000;
+    height: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    
+ }
+
+ .top {
+    display: flex;
+    justify-content: space-between;
+    
+ }
+.top h1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.top ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.top ul li span {
+    color: #878787;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-flex;
+}
+
+.footer .top ul li .yellow {
+    color: #E4C280;
+
+}
+
+.footer .top ul li img {
+    height: 13px;
+    margin-left: 15px;
+}
+
+.top .main-menu h1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.top .main-menu ul li {
+    color: #E4C280;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top .things-to-do h1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;  
+}
+
+.top .things-to-do ul li {
+    color: #E4C280;
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+.top .rooms-suits {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;  
+}
+
+.top .rooms-suits ul li {
+    color: #E4C280;
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+.bottom .line {
+    width: 100%;
+    height: 1px;
+    background-color: #878787;
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.bottom p {
+    color: #878787;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 }
