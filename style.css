@@ -1230,9 +1230,11 @@
     .section-6 .leisure-block .card {
         width: 220px;
     }
+
     .section-6 .leisure-block {
         margin-top: 20px;
     }
+
     .section-6 .leisure-block .card .text-for-card h5 {
         font-size: 13px;
     }
@@ -1243,5 +1245,255 @@
 
     .section-6 .leisure-block .card .text-for-card h1 {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .section-1 {
+        background-size: cover;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .header {
+        padding: 0 10px;
+    }
+
+    .section-1 .header .right .button h1 {
+        font-size: 10px;
+    }
+
+    .section-1 .header .right .button {
+        height: 25px;
+        width: 70px;
+        line-height: 25px;
+    }
+
+    .section-1 .header .right .language p {
+        font-size: 14px;
+
+    }
+
+    .section-1 .header .right .search img {
+        width: 15.15px;
+        height: 15px;
+    }
+
+    .section-1 .header .left .menu h1 {
+        font-size: 14px;
+    }
+
+    .section-1 .header .left .hamburger-menu .menu-items {
+        width: 80%;
+    }
+
+    .section-1 .description h3 {
+        margin-top: 5px;
+    }
+
+    .section-1 .description h1 {
+        font-size: 22px;
+    }
+
+    .section-1 .button-discover-more {
+        margin-top: 30px;
+        width: 160px;
+        height: 30px;
+    }
+
+    .section-1 .button-discover-more h1 {
+        font-size: 13px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .booking-bloc {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0 0px;
+    }
+
+    .booking-bloc .date-block {
+        padding: 0 0 0px 0px;
+    }
+
+    .booking-bloc .date-block .descriptions {
+        margin-bottom: 10px;
+    }
+
+    .date-of-arrival,
+    .date-of-departure,
+    .number-of-people,
+    .chek-avaliability-btn {
+        width: 100%;
+    }
+
+    .booking-bloc h6 {
+        text-align: center;
+    }
+
+    .booking-bloc .date-block div {
+        justify-content: center;
+
+    }
+
+    .number-of-people .right h6 {
+        text-align: left;
+    }
+
+    .number-of-people .right {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .number-of-people .left {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .number-of-people .left h6 {
+        text-align: right;
+    }
+
+    .date-of-arrival,
+    .date-of-departure,
+    .number-of-people,
+    .chek-avaliability-btn {
+        height: 132px;
+    }
+
+    .vision-block .right {
+        display: none;
+
+    }
+
+    .vision-block .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .vision-block .left div {
+        margin: auto;
+    }
+
+    .free-time .the-hotel-title {
+        font-size: 25px;
+    }
+
+    .free-time .description-title {
+        font-size: 12px;
+    }
+
+    .free-time p {
+        width: 100%;
+    }
+
+    .entertainment {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .free-time .entertainment .card {
+        width: 200px;
+    }
+
+    .free-time .entertainment .card h1 {
+        text-align: center;
+    }
+
+    .free-time .entertainment .card p {
+        text-align: center;
+    }
+
+    .free-time .entertainment .card h4 {
+        text-align: center;
+    }
+
+    .section-4 {
+        height: 500px;
+    }
+
+    .the-advantages {
+        height: 350px;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .the-advantages {
+        justify-content: center;
+    }
+
+    .example-room {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .example-room img {
+        width: 100%;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .links a {
+        font-size: 18px;
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .section-5 h1 {
+        font-size: 40px;
+    }
+
+    .section-5 p {
+        padding-top: 20px;
+    }
+
+    .section-5 .example-room .description-room .yellow {
+        margin-top: 10px;
+    }
+
+    .section-5 .example-room .description-room .grey {
+        margin-top: 10px;
+    }
+
+    .types-of-rooms {
+        justify-content: space-around;
+    }
+
+    .leisure-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-6 .leisure-block .card .text-for-card h6 {
+        margin-bottom: 5px;
+    }
+
+    .top {
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-6 .footer .top .contact h1 {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .section-6 .footer .top .main-menu h1 {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .section-6 .footer .top .things-to-do h1 {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .section-6 .footer .top .rooms-suits h1 {
+        text-align: center;
+        margin-top: 15px;
     }
 }
